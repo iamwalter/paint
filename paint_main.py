@@ -1,9 +1,6 @@
 import pygame, random, time, _thread
 from pygame.locals import *
 
-
-#Todo: COMMENT THE CODE
-
 class Paint_Color(object):
     def __init__(self, name, r, g, b):
         self.name = name
@@ -154,5 +151,6 @@ class PaintProgram(object):
         self.logic()
 
 paint = PaintProgram()
+
 paint.start()
 
